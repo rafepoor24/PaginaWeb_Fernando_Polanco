@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Fernando Polanco</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio">Fernando</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/fernando.png" alt="">
+            </div>
+            <h1>Fernando Polanco</h1>
+            <h2>Programador Jr</h2>
+            <div class="redes">
+                
+                <a href="https://rafepoor24.itch.io/"><i class="fa-brands fa-itch-io"></i></a>
+                <a href="https://learn.unity.com/u/6345973aedbc2a4c5805787a/?tab=profile"><i class="fa-brands fa-unity"></i></a>
+                <a href="https://github.com/rafepoor24"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rafepoor/"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p ><span>Hola, soy Fernando Polanco.</span> Desarrollador de software Jr con un gran conocimiento en diferentes lenguajes de programación. Estoy emocionado por enfrentar los retos futuros en esta industria y trabajar en proyectos innovadores y emocionantes. Estoy ansioso por tener la oportunidad de aplicar mis habilidades y conocimientos en un equipo de desarrollo de videojuegos y crecer como desarrollador.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        
+        
+                        <li>
+                            <strong>Email</strong>
+                            rafepoor@yahoo.com.co
+                        </li>
+                      
+                        <li>
+                            <strong>Dirección</strong>
+                            Bogota- Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                       
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                       
+                       
+                        
+                    </div>
+                </div>
+            </div>
+             <!-- <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button> -->
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Desarrollador Jr Unity</h4>
+                        <span class="casa">Generation Colombia</span>
+                        <span class="fecha">2022-2023</span>
+                        <p>Adquiri conocimientos en programación, diseño de videojuegos y animación, así como en el uso de herramientas y tecnologías específicas de Unity, como el motor de juegos y la plataforma de realidad virtual. También aprendí sobre el ciclo de desarrollo de videojuegos, desde la concepción hasta la publicación en diferentes plataformas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Python</h4>
+                        <span class="casa">Universidad Industrial de santander</span>
+                        <span class="fecha">2022 - 2022</span>
+                        <p>Adquirí conocimientos en programación orientada a objetos, estructuras de datos, algoritmos y estándares de programación en Python. También aprendí sobre el manejo de bases de datos, integración de APIs, desarrollo de software en equipo y prácticas de desarrollo de software ágiles. Además, puede adquirir habilidades en tecnologías relacionadas como Flask, Django, Scrapy, entre otras.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>JAVA SE</h4>
+                        <span class="casa">Universidad Industrial de santander</span>
+                        <span class="fecha">2022 - 2022</span>
+                        <p>Adquirí conocimientos en programación en el lenguaje Java, estructuras de datos y algoritmos, bases de datos, programación orientada a objetos y desarrollo de aplicaciones en Java. También puede adquirir habilidades en herramientas de desarrollo de software como Eclipse o NetBeans, y técnicas de depuración y pruebas de software.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo Web</h4>
+                        <span class="casa">Universidad Industrial de santander</span>
+                        <span class="fecha">2022 - 2022</span>
+                        <p>Adquirí conocimientos en programación y tecnologías web, incluyendo HTML, CSS, JavaScript, React y Node.js, y bases de datos como MySQL o MongoDB. Además, aprenden sobre metodologías ágiles, pruebas de software y desarrollo de aplicaciones web escalables y seguras.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Asesor Growth Uber </h4>
+                        <span class="casa">Teleperformance</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Amplia comprensión de la plataforma y cómo funciona, incluyendo conocimientos sobre la aplicación, la asignación de viajes, el pago y la resolución de problemas técnicos, atender y resolver las quejas y preocupaciones de los usuarios.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Emprendedor</h4>
+                        <span class="casa">La gran Hacienda</span>
+                        <span class="fecha">2020-2022</span>
+                        <p>Responsable de adquirir, almacenar, vender y distribuir productos agrícolas a clientes y proveedores. También negociar precios, establecer relaciones comerciales y mantener un inventario actualizado de los productos. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Aux Administrativo</h4>
+                        <span class="casa">GR S.A.S</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p> Responsable de llevar a cabo las tareas administrativas y de apoyo en la empresa. Mis funciones fueron: gestión de documentos y archivos, organización de citas y reuniones, atención al cliente, realización de tareas de contabilidad y facturación, y cualquier otra tarea necesaria para apoyar la eficiencia y eficacia del departamento administrativo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://rafepoor24.itch.io/cyber-armaggedon"><img src="img/cyberArmagedon.PNG" alt="proyectoUnityShooter"></a>
+                    <div class="overlay">
+                        <h3>Shooter </h3>
+                        <p>Unity</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://ligomezm.itch.io/cherry-rush"><img src="img/CheeryRush.PNG" alt=""></a>
+                    <div class="overlay">
+                        <h3>Cherry Rush</h3>
+                        <p>Unity</p>
+                    </div>
+                </div>
+              
+             
+               
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bogota-Colombia
+                            </li>
+                            
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: rafepoor@yahoo.com.co
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://rafepoor24.itch.io/"><i class="fa-brands fa-itch-io"></i></a>
+            <a href="https://learn.unity.com/u/6345973aedbc2a4c5805787a/?tab=profile"><i class="fa-brands fa-unity"></i></a>
+            <a href="https://github.com/rafepoor24"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rafepoor/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
