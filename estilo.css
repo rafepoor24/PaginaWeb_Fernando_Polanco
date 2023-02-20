@@ -260,7 +260,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,27,1) 37%, rgba
 }
 .skills .skill .progreso{
     background-color: #1CB698;
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     height: 8px;
@@ -284,7 +284,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,27,1) 37%, rgba
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .htmlcss{
@@ -293,7 +293,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,27,1) 37%, rgba
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .photoshop{
@@ -302,7 +302,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,27,1) 37%, rgba
 }
 @keyframes photoshop {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .wordpress{
@@ -311,16 +311,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,27,1) 37%, rgba
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .drupal{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s comunicacion forwards;
 }
-@keyframes drupal {
+@keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .comunicacion{
@@ -338,7 +338,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,27,1) 37%, rgba
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .creatividad{
@@ -347,7 +347,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,27,1) 37%, rgba
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .dedicacion{
@@ -356,7 +356,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,27,1) 37%, rgba
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .proyect{
@@ -365,7 +365,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,27,1) 37%, rgba
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width:80%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
